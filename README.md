@@ -13,7 +13,7 @@ Console:
 
 <img src='https://imgur.com/wEHIu77.png'>
 
-Twitter:
+Twitter _(thx for the follow 😀)_:
 
 <img src='https://imgur.com/CzZYqAd.png'>
 
