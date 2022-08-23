@@ -7,7 +7,17 @@
 [![gh:issues](https://img.shields.io/github/issues/blazsmaster/daily-twitter-bot?logo=github&logoColor=FFFFFF&style=for-the-badge&labelColor=333333)](https://github.com/blazsmaster/daily-twitter-bot/issues)
 [![gh:license](https://img.shields.io/github/license/blazsmaster/daily-twitter-bot?logo=github&logoColor=FFFFFF&style=for-the-badge&labelColor=333333&color=656665)](https://github.com/blazsmaster/daily-twitter-bot/blob/main/LICENSE)
 
-## Install packages
+# Preview
+
+Console:
+
+<img src='https://imgur.com/wEHIu77.png'>
+
+Twitter:
+
+<img src='https://imgur.com/CzZYqAd.png'>
+
+# Install packages
 
 ```ps
 $ npm install
@@ -21,9 +31,9 @@ Check your version:
 $ node --version
 ```
 
-## Setup
+# Setup
 
-### Step #1
+## Step #1
 
 Go to [Twitter for Developers](https://developer.twitter.com) and sign up to developer account.
 
@@ -31,7 +41,7 @@ Fill out the pages with information.
 
 **You need to verify your phone number and email address**
 
-# Step #2
+## Step #2
 
 Go to [Developer Portal](https://developer.twitter.com/en/portal/dashboard) then click on the `Projects & Apps` menu
 
