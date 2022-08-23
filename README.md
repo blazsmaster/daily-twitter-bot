@@ -39,11 +39,11 @@ Go to [Twitter for Developers](https://developer.twitter.com) and sign up to dev
 
 Fill out the pages with information.
 
-**You need to verify your phone number and email address**
+**⚠️ You need to verify your phone number and email address!**
 
 ## Step #2
 
-Go to [Developer Portal](https://developer.twitter.com/en/portal/dashboard) then click on the `Projects & Apps` menu
+Go to [Developer Portal](https://developer.twitter.com/en/portal/dashboard) then click on the `Projects & Apps` menu.
 
 <img src='https://imgur.com/BbYHf6d.png' width=50%>
 
@@ -97,10 +97,16 @@ runDaily(); // the run function but repeated every 24 hours automatically
 
 Remove the comment from the ones you want to use.
 
-Run the script with
+Run the script with this command:
 
 ```ps
 $ ts-node index
+```
+
+If not working, use this:
+
+```ps
+$ npm install ts-node typescript -g
 ```
 
 # Information
