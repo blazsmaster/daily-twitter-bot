@@ -1,0 +1,36 @@
+{
+  "name": "daily-twitter-bot",
+  "version": "1.0.0",
+  "description": "A simple tweeting bot for Twitter with media and poll support",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blazsmaster/daily-twitter-bot.git"
+  },
+  "keywords": [
+    "twitter-bot",
+    "twitter",
+    "bot",
+    "tweet",
+    "ts",
+    "ts-node"
+  ],
+  "author": "blazsmaster <businessblazs@gmail.com> (https://github.com/blazsmaster)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blazsmaster/daily-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/blazsmaster/daily-twitter-bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "file-type": "^16.5.4",
+    "moment": "^2.29.4",
+    "twitter-api-v2": "^1.12.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.11"
+  }
+}
