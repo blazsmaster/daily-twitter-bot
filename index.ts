@@ -1,13 +1,16 @@
+import dotenv from 'dotenv';
 import Twitter from './src/Twitter'; // custom Twitter client
 import data from './data/meta.json'; // array of the data
 import { readFile, writeFile } from 'node:fs';
 import Logger from './src/utils/Logger'; // custom logger
 
+dotenv.config();
+
 const T = new Twitter({
-  appKey: '', // consumer key
-  appSecret: '', // consumer secret
-  accessToken: '', // access token
-  accessSecret: '', // access token secret
+  appKey: process.env.CONSUMER_KEY || '', // consumer key
+  appSecret: process.env.CONSUMER_SECRET || '', // consumer secret
+  accessToken: process.env.ACCESS_TOKEN || '', // access token
+  accessSecret: process.env.ACCESS_TOKEN_SECRET || '', // access token secret
 });
 
 // shuffle ("randomize") the array
