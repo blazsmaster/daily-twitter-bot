@@ -122,6 +122,7 @@ After putting the files, you need to assign manually the files to descriptions a
 Some example:
 
 ```json
+// text with poll
 {
   "files": [],
   "text": "👋🏻 Hey there! Check out my new pic",
@@ -134,6 +135,7 @@ Some example:
 ```
 
 ```json
+// text with media
 {
   "files": ["index.jpg"],
   "text": "👋🏻 Hey there! Check out my new pic",
@@ -142,6 +144,7 @@ Some example:
 ```
 
 ```json
+// only media
 {
   "files": ["video.mp4"],
   "text": "",
@@ -150,6 +153,7 @@ Some example:
 ```
 
 ```json
+// only text
 {
   "files": [],
   "text": "👋🏻 Hey there! Check out my new pic",
@@ -158,6 +162,7 @@ Some example:
 ```
 
 ```json
+// text with linebrakes
 {
   "files": [],
   "text": "👋🏻 Hey there!\n\n#helloworld\nthis is another line", // multiline supported: \n for linebreak
