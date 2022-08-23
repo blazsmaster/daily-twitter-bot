@@ -1,17 +1,9 @@
-[{
-  "files": [
-    "index.jpg",
-    "index.jpg",
-    "index.jpg",
-    "index.jpg"
-  ],
-  "text": "test 👋🏻",
-  "poll": {
-    "duration": 20,
-    "options": [
-      "a",
-      "b"
-    ]
-  },
-  "isTweeted": true
-}]
+[
+  {
+    "files": [
+      "index.jpg"
+    ],
+    "text": "👋🏻 Hey there! Check out my cool pic",
+    "isTweeted": false
+  }
+]
