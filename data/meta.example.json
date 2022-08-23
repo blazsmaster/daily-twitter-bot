@@ -1,0 +1,36 @@
+[
+  {
+    "files": [],
+    "text": "👋🏻 Hey there! Check out my new pic",
+    "poll": {
+      "duration": 120,
+      "options": [
+        "Selection A",
+        "Selection B",
+        "Selection C",
+        "Selection D"
+      ]
+    },
+    "isTweeted": false
+  },
+  {
+    "files": ["index.jpg"],
+    "text": "👋🏻 Hey there! Check out my new pic",
+    "isTweeted": false
+  },
+  {
+    "files": ["index.jpg"],
+    "text": "",
+    "isTweeted": false
+  },
+  {
+    "files": [],
+    "text": "👋🏻 Hey there! Check out my new pic",
+    "isTweeted": false
+  },
+  {
+    "files": [],
+    "text": "👋🏻 Hey there!\n\n#helloworld\nthis is another line",
+    "isTweeted": false
+  }
+]
