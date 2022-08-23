@@ -88,6 +88,8 @@ ACCESS_TOKEN_SECRET=key
 
 # Usage
 
+## Run
+
 Two functions in the comment at the bottom of the index.ts file.
 
 ```ts
@@ -107,6 +109,60 @@ If not working, use this:
 
 ```ps
 $ npm install ts-node typescript -g
+```
+
+## Media files
+
+**⚠️ IMPORTANT: read `meta.hint.js` in `data` folder** before doing anything.
+
+You can put any image or video into the `data` folder.
+
+After putting the files, you need to assign manually the files to descriptions and other options in `meta.json`.
+
+Some example:
+
+```json
+{
+  "files": [],
+  "text": "👋🏻 Hey there! Check out my new pic",
+  "poll": {
+    "duration": 120,
+    "options": ["Selection A", "Selection B", "Selection C", "Selection D"]
+  },
+  "isTweeted": false
+}
+```
+
+```json
+{
+  "files": ["index.jpg"],
+  "text": "👋🏻 Hey there! Check out my new pic",
+  "isTweeted": false
+}
+```
+
+```json
+{
+  "files": ["video.mp4"],
+  "text": "",
+  "isTweeted": false
+}
+```
+
+```json
+{
+  "files": [],
+  "text": "👋🏻 Hey there! Check out my new pic",
+  "isTweeted": false
+}
+```
+
+```json
+{
+  "files": [],
+  "text": "👋🏻 Hey there!\n\n#helloworld\nthis is another line", // multiline supported: \n for linebreak
+  "isTweeted": false
+}
 ```
 
 # Information
