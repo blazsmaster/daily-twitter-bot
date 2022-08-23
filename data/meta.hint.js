@@ -31,6 +31,6 @@
   // you can leave empty the "files" and the "text" field empty, but always fill at least one, because you can't create empty tweets
   // you can remove the "poll" object
   // search up for maximum lengths and image/video sizes
-
-  // valid examples here
 ]
+
+// supported extensions: webp, jpg, png, jpeg, jfif, gif, m4v, mov, mp4
