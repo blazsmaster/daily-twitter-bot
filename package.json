@@ -26,6 +26,7 @@
   "homepage": "https://github.com/blazsmaster/daily-twitter-bot#readme",
   "dependencies": {
     "chalk": "^4.1.2",
+    "dotenv": "^16.0.1",
     "file-type": "^16.5.4",
     "moment": "^2.29.4",
     "twitter-api-v2": "^1.12.5"
